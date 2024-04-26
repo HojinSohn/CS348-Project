@@ -1,0 +1,26 @@
+.ingredient-item {
+    display: flex; /* Use flexbox for layout */
+    background: white;
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    padding: 8px; /* Add padding for spacing */
+    border-bottom: 1px solid #ccc; /* Add a bottom border to separate items */
+}
+
+.ingredient-item span {
+    flex: 1; /* Allow the ingredient name to grow and fill available space */
+    color: black;
+}
+
+.ingredient-item button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ingredient-item button:hover {
+    background-color: #d32f2f;
+}
