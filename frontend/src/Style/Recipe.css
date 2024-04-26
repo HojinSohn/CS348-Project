@@ -1,0 +1,39 @@
+/* RecipeComponent.css */
+
+.recipe-container {
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    border-top: 2px solid;
+}
+
+.recipe-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe-container p {
+    margin-bottom: 10px;
+}
+
+.recipe-container button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.recipe-container ul {
+    margin-bottom: 10px;
+}
+
+.recipe-container li {
+    margin-bottom: 5px;
+}
+
+.recipe-container div {
+    margin-top: 10px;
+}
+

@@ -1,0 +1,78 @@
+/* RecipeListComponent.css */
+
+.container {
+    display: flex; /* Use flexbox */
+    flex-direction: row;
+}
+
+.option-component-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.display-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.available-ingredients ul, .ingredients-list {
+    overflow: scroll;
+    height: 500px;
+    width: 300px;
+}
+
+.recipe-list-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+    border: 5px solid black;
+    align-items: center;
+}
+
+.recipe-list-container header {
+    margin-bottom: 10px;
+}
+
+.recipe-list-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-list-container button {
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 8px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.recipe-list-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe-list {
+    height: 1000px;
+    overflow: scroll;
+}
+
+.create-button {
+    margin-top: 300px;
+}
+
+.create-button button {
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 8px 16px;
+    background: #ff0000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

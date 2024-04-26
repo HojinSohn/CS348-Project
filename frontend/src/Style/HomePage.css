@@ -1,0 +1,16 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-container {
+    width: 1000px;
+}
